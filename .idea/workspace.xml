@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2575870d-508d-4d4a-a5f1-42a011fe6256" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/kotlin_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/kotlin_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/META-INF/kotlin_main.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/io2018/_01_bean/Bean.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/io2018/_01_bean/ParseName.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/io2018/_02_properties/Observable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/io2018/_02_properties/Properties.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/io2018/_03_functions/Functions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/io2018/_04_expressions/Example.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/io2018/_04_functional/Example.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/io2018/_05_coroutines/CallbackToCoroutines.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/io2018/_05_coroutines/Threads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/io2018/_05_coroutines/ThreadsVsCoroutines.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/io2018/_08_local_sealed_casts/Example.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/kotlin_main.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -62,11 +39,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CallbackToCoroutines.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CallbackToCoroutines.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/io2018/_05_coroutines/CallbackToCoroutines.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="150">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -75,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/io2018/_05_coroutines/ThreadsVsCoroutines.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
               <folding>
                 <element signature="e#24#196#0" expanded="true" />
               </folding>
@@ -456,6 +442,7 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/_05_coroutines/ThreadsVsCoroutines.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/_05_coroutines/CallbackToCoroutines.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io2018/_05_coroutines/CallbackToCoroutines.kt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -646,12 +633,20 @@
       <workItem from="1526054318818" duration="43000" />
       <workItem from="1526054391188" duration="297000" />
       <workItem from="1526054712255" duration="5502000" />
-      <workItem from="1526091239214" duration="4655000" />
+      <workItem from="1526091239214" duration="4921000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1526096434595</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526096434595</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11204000" />
+    <option name="totallyTimeSpent" value="11470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -667,7 +662,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2702366" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32876712" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29613733" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32876712" />
@@ -692,6 +687,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -886,7 +885,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/io2018/_05_coroutines/ThreadsVsCoroutines.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
           <folding>
             <element signature="e#24#196#0" expanded="true" />
           </folding>
@@ -900,13 +899,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/io2018/_05_coroutines/CallbackToCoroutines.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="150">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
         </state>
       </provider>
     </entry>
