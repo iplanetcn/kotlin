@@ -1,6 +1,8 @@
 import com.google.gson.Gson
 import com.phenix.main
-import org.junit.Test
+import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Assertions.assertSame
+import org.junit.jupiter.api.Test
 
 class KotlinTest {
     @Test
@@ -41,6 +43,13 @@ class KotlinTest {
         val outer = Outer().Nested().foo()
         println(outer)
     }
+
+    @Test
+    fun `Empty list does not change at all`() {
+        val emptyList = emptyList<Int>()
+        assertEquals(emptyList, emptyList.quickSort())
+        assertSame(emptyList, emptyList.quickSort())
+    }
 }
 
 class Outer {
@@ -59,4 +68,12 @@ data class Person(var name: String, var age: Int) {
     override fun toString(): String {
         return Gson().toJson(this)
     }
+}
+
+
+fun <T : Comparable<T>> List<T>.quickSort(): List<T> {
+    if (size < 2) return this
+    val pivot = this.first()
+    val (smaller, bigger) = drop(1).partition { it < pivot }
+    return smaller.quickSort() + pivot + bigger.quickSort()
 }
