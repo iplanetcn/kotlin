@@ -1,0 +1,43 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+}
+
+plugins {
+    id "org.jetbrains.kotlin.jvm" version "1.4.20"
+    id "com.adarshr.test-logger" version "2.1.0"
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.4.20"
+    implementation "org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.13.0"
+    implementation  "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9"
+    implementation "com.google.code.gson:gson:2.8.6"
+    testImplementation "org.junit.jupiter:junit-jupiter:5.4.0"
+}
+
+testlogger {
+    theme 'mocha'
+    showStandardStreams = true
+}
+
+test {
+    useJUnitPlatform()
+}

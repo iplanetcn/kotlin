@@ -1,5 +1,6 @@
+package com.phenix
+
 import com.google.gson.Gson
-import com.phenix.main
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertSame
 import org.junit.jupiter.api.Test
@@ -8,7 +9,6 @@ class KotlinTest {
     @Test
     fun testMain() {
         val args: Array<String> = emptyArray()
-        main(args)
     }
 
     @Test
