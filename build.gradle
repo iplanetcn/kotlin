@@ -1,17 +1,17 @@
 buildscript {
     repositories {
-        jcenter()
+        mavenCentral()
     }
 }
 
 plugins {
-    id "org.jetbrains.kotlin.jvm" version "1.4.20"
+    id "org.jetbrains.kotlin.jvm" version "1.5.20"
     id "com.adarshr.test-logger" version "2.1.0"
+    id 'org.jetbrains.kotlin.plugin.serialization' version '1.5.20'
 }
 
 repositories {
     mavenCentral()
-    jcenter()
 }
 
 sourceCompatibility = JavaVersion.VERSION_1_8
@@ -26,10 +26,10 @@ compileTestKotlin {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.4.20"
-    implementation "org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.13.0"
-    implementation  "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9"
-    implementation "com.google.code.gson:gson:2.8.6"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.5.20"
+    implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.2.2"
+    implementation  "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.1"
+    implementation "com.google.code.gson:gson:2.8.7"
     testImplementation "org.junit.jupiter:junit-jupiter:5.4.0"
 }
 

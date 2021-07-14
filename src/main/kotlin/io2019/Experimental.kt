@@ -1,6 +1,5 @@
 package io2019
 
-@Experimental(level = Experimental.Level.WARNING)
 annotation class NewAPI
 
 @NewAPI

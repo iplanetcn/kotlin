@@ -4,7 +4,7 @@ import kotlin.contracts.ExperimentalContracts
 import kotlin.contracts.contract
 
 
-@UseExperimental(ExperimentalContracts::class)
+@ExperimentalContracts
 fun String?.notNull(): Boolean {
     contract {
         returns(true) implies (this@notNull != null)
@@ -12,6 +12,7 @@ fun String?.notNull(): Boolean {
     return this != null
 }
 
+@ExperimentalContracts
 fun printLength(s: String) {
     if (s.notNull()) {
         println(s.length)

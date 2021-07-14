@@ -2,8 +2,6 @@ package io2019
 
 import kotlinx.serialization.*
 import kotlinx.serialization.json.Json
-import kotlinx.serialization.json.Json.Companion.stringify
-import org.intellij.lang.annotations.Language
 
 @Serializable
 data class Customer(
@@ -19,12 +17,11 @@ val customers = listOf(
         Customer(2, "customer2", "customer2@domain.com")
 )
 
-@UnstableDefault
 fun main() {
-//    println(stringify(Customer.serializer(), customer))
-//    println(stringify(Customer.serializer().list, customers))
-//
-//    @Language("JSON") val json = "{\n  \"id\": 1,\n  \"name\": \"me\",\n  \"email\": \"you@me.com\",\n  \"age\": 32\n}"
-//
-//    println(Json.parse(Customer.serializer(), json))
+    println(Json.encodeToString(Customer.serializer(), customer))
+//    println(Json.encodeToString((List<Customer>).serializer(), customers))
+
+    val json = "{\n  \"id\": 1,\n  \"name\": \"me\",\n  \"email\": \"you@me.com\"}"
+
+    println(Json.decodeFromString(Customer.serializer(), json))
 }
