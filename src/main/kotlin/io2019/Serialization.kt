@@ -18,10 +18,11 @@ val customers = listOf(
 )
 
 fun main() {
-    println(Json.encodeToString(Customer.serializer(), customer))
-//    println(Json.encodeToString((List<Customer>).serializer(), customers))
+    println(Json.encodeToString(customer))
+    println(Json.encodeToString(customers))
 
     val json = "{\n  \"id\": 1,\n  \"name\": \"me\",\n  \"email\": \"you@me.com\"}"
+//    val json = "{\n  \"id\": 1,\n  \"name\": \"me\",\n  \"email\": \"you@me.com\",\n  \"age\": 33\n}"
 
-    println(Json.decodeFromString(Customer.serializer(), json))
+    println(Json.decodeFromString(json) as Customer)
 }
