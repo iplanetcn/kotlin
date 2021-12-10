@@ -2,7 +2,7 @@ package io2018._04_expressions
 
 class Example(val a: Int, val b: String?, val c: Boolean)
 
-fun main(args: Array<String>) {
+fun main() {
     val ex = Example(1, null, true)
 
     with(ex) {

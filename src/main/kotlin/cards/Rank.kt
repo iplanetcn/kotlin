@@ -1,6 +1,6 @@
 package cards
 
-enum class Rank(val value: String) {
+enum class Suit(val value: String) {
     SPADES("♠️"), HEARTS("♥️"), CLUBS("♣️"), DIAMONDS("♦️");
 
     override fun toString(): String {

@@ -1,6 +1,6 @@
 package com.phenix
 
-fun main(args:Array<String>) {
+fun main() {
     val p = Human("John", 31, "Android Engineer.")
     println(p.toString())
     val nums = intArrayOf( 2, 7, 11, 15)

@@ -1,6 +1,6 @@
 package io2018._08_local_sealed_casts
 
-fun main(args: Array<String>) {
+fun main() {
     val root = Container(
             Text("a"),
             Container(

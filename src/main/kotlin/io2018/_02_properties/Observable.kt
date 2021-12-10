@@ -23,7 +23,7 @@ class Prop(var field: String) {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println("\n\nObservable property:")
     observeMe = "bb"
     observeMe = "ccc"

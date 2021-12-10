@@ -1,10 +1,12 @@
 package cards
 
-class CardDeck(val cards: MutableList<Card> = ArrayList()) {
+class CardDeck(
+    private val cards: MutableList<Card> = ArrayList()
+) {
     init {
         for (suit in Suit.all) {
             for (rank in Rank.all) {
-                val card = Card(rank, suit);
+                val card = Card(rank, suit)
                 cards.add(card)
             }
         }

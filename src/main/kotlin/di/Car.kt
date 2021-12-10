@@ -14,7 +14,7 @@ class AnotherCar {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val engine = BmwGasEngine()
     val car = Car(engine)
     car.start()

@@ -1,6 +1,6 @@
 package io2018._04_functional
 
-fun main(args: Array<String>) {
+fun main() {
     val numbers = (1..100).toList()
 
     val list = mutableListOf<String>()

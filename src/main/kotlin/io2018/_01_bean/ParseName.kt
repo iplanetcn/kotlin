@@ -8,7 +8,7 @@ fun parseName(name: String): FullName {
 }
 
 
-fun main(args: Array<String>) {
+fun main() {
     val name = parseName("John Lee")
     val first = name.first
     val last = name.last

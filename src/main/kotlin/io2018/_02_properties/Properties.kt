@@ -14,7 +14,7 @@ val os: String by lazy {
 }
 
 
-fun main(args: Array<String>) {
+fun main() {
     prop = "john"
 
     for (i in 1..3) {

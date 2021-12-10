@@ -5,6 +5,6 @@ fun String.firstWord(separator: String = " "): String {
     return if (index < 0) this else substring(0, index)
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println("John Lee".firstWord())
 }

@@ -1,6 +1,6 @@
 package cards
 
-enum class Suit(val value: String) {
+enum class Rank(val value: String) {
     ACE("A"),
     TWO("2"),
     THREE("3"),

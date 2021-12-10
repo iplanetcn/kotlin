@@ -8,7 +8,7 @@ package loop
  * @since 2021-07-14
  */
 
-fun main(args: Array<String>) {
+fun main() {
     println("*********************")
     run loop@{
         (1..10).forEach {

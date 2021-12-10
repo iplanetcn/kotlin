@@ -15,7 +15,7 @@ fun CallbackService.sendMany(vararg from: String, callback: (CallbackService.Res
 }
 
 
-fun main(args: Array<String>) {
+fun main() {
     val s1 = CallbackService("1")
     val s2 = CallbackService("2")
 
