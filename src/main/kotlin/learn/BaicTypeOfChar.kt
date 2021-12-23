@@ -1,8 +1,8 @@
 package learn
 
-val aChar: Char = '0'
-val bChar: Char = '中'
-val cChar: Char = 'G'
+const val aChar: Char = '0'
+const val bChar: Char = '中'
+const val cChar: Char = 'G'
 
 fun main() {
     println(aChar)
