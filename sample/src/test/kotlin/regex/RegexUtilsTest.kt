@@ -1,7 +1,8 @@
-package regex
+package com.phenix.regex
 
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
+import regex.RegexUtils
 
 class RegexUtilsTest{
     @Test

@@ -1,7 +1,5 @@
 package chains
 
-import javax.print.attribute.standard.PrinterMoreInfoManufacturer
-
 /**
  * CarSpecs
  *

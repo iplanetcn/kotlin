@@ -17,5 +17,3 @@ fun main() {
 
     println(line1.intersectsLine(line2))
 }
-
-

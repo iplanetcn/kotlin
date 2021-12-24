@@ -1,7 +1,6 @@
 package graph
 
 import kotlin.math.abs
-import kotlin.math.cos
 
 /**
  * AStarSearch

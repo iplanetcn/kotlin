@@ -1,5 +1,6 @@
-package cards
+package com.phenix.cards
 
+import cards.CardDeck
 import org.junit.jupiter.api.Test
 
 /**

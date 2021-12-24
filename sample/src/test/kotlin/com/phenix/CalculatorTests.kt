@@ -1,5 +1,6 @@
-package com.phenix
+package com.phenix.com.phenix
 
+import com.phenix.Calculator
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*
