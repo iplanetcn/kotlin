@@ -45,7 +45,9 @@ data class RequestData(
     val org: String
 )
 
-@ExperimentalSerializationApi
+private val json = Json { ignoreUnknownKeys = true }
+
+@OptIn(ExperimentalSerializationApi::class)
 fun createGitHubService(username: String, password: String): GitHubService {
     val authToken = "Basic " + Base64.getEncoder().encode("$username:$password".toByteArray()).toString(Charsets.UTF_8)
     val httpClient = OkHttpClient.Builder()
@@ -62,7 +64,7 @@ fun createGitHubService(username: String, password: String): GitHubService {
     val contentType = "application/json".toMediaType()
     val retrofit = Retrofit.Builder()
         .baseUrl("https://api.github.com")
-        .addConverterFactory(Json { ignoreUnknownKeys = true }.asConverterFactory(contentType))
+        .addConverterFactory(json.asConverterFactory(contentType))
         .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
         .client(httpClient)
         .build()
